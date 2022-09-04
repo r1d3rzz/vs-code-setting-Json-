@@ -1,0 +1,105 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 16,
+    "editor.minimap.enabled": false,
+    "window.newWindowDimensions": "fullscreen",
+    "window.restoreFullscreen": true,
+    // "window.titleBarStyle": "native",
+    "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
+    // "window.nativeFullScreen": false,
+    
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "window.menuBarVisibility": "hidden",
+    "workbench.editor.showTabs": false,
+    "editor.fontFamily": "Fira Code,Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    // "editor.hover.enabled": true,
+    "files.exclude": {
+        "**/.git": false
+    },
+    "editor.multiCursorModifier": "alt",
+  
+    "git.confirmSync": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer",
+        "editor.formatOnSave": true,
+        "editor.autoClosingBrackets": "always"
+    },
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.rules": "@PSR2",
+    "php-cs-fixer.showOutput": false,
+    "php-cs-fixer.autoFixByBracket": false,
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur",
+        "editor.formatOnSave": true
+    },
+    "[blade]": {
+        "editor.defaultFormatter": "onecentlin.laravel-blade",
+        "editor.formatOnSave": true,
+    },
+    "blade.format.enable": true,
+    "[python]": {
+        "editor.autoClosingBrackets": "always"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.startupEditor": "none",
+    "material-icon-theme.hidesExplorerArrows": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.wordWrap": "on",
+    "html.format.wrapAttributes": "force-expand-multiline",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {"django-html": "html","javascript": "javascriptreact"},
+    "files.associations": {
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        "**/templates/**/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+    },
+    "edge.format.enable": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": false,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": false,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.enableSmartCommit": true,
+    "workbench.colorTheme": "Andromeda Italic",
+    "liveServer.settings.donotVerifyTags": true,
+    "window.zoomLevel": 1,
+}
